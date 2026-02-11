@@ -1,5 +1,5 @@
 ## About
-TrackPrice is a price tracking tool that monitors product prices from various online stores and notifies users via Discord when prices drop.
+TrackPrice is a price tracking tool that monitors product prices from various online stores and notifies users via Discord when prices drop. Also, it stores the product information in a CSV file for easy access.
 
 ## Features
 - Track prices of different products from multiple shops
@@ -8,7 +8,7 @@ TrackPrice is a price tracking tool that monitors product prices from various on
 
 ## Configuration
 1. Clone the repository `git clone https://github.com/shihabhasan0161/trackprice.git`
-2. Install the packages `pip install -r requirements.txt`
+2. Create virtual env `python -m venv .venv`, then activate it and install the packages `pip install -r requirements.txt`
 3. Create a .env file in the root directory
 4. Go to discord.com/developers/applications and create a new application
 5. Go to the "Bot" tab and change username if you want
